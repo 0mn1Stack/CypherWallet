@@ -27,15 +27,10 @@ struct HomeView: View {
                                     print("test")
                                 }
                                 
-                                
-                                
                                 //Text(wallet.address)
                                 
                             }
                         }.padding(.horizontal)
-                        
-
-                        
                     }
                     
                 })
@@ -67,7 +62,7 @@ struct HomeView: View {
 //            print("private key: ", pkData)
             
 //            let password2 = "web3swift"
-//            let key = "84f4a0c8b7fbf903e099895d5bf6549b42b0a181a43ce6dc3640631098647ba4" // Some private key
+//            let key = "" // Some private key
 //            let formattedKey = key.trimmingCharacters(in: .whitespacesAndNewlines)
 //            let dataKey2 = Data.fromHex(formattedKey)!
 //            let keystore2 = try! EthereumKeystoreV3(privateKey: dataKey2, password: password2)!
@@ -83,7 +78,7 @@ struct HomeView: View {
 //            //private key:
 //            newWallet.privateKey
             
-            // 0xC20d322f205A61B3fD5eC4845627b4460772b6aA
+            // 
             //
         }
         

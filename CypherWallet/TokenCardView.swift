@@ -31,5 +31,5 @@ struct TokenCardView: View {
 //        TokenCardView()
 //    }
 //}
-// 0xB8B808a1383704633F90C23A0A68d5426D32FfE2 0xb8b808a1383704633f90c23a0a68d5426d32ffe2
+// 
 //
