@@ -3,16 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27686E596688DBE7521E95C6 /* Pods_CypherWallet_CypherWalletUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECCBB3FC2920B361E0082B4 /* Pods_CypherWallet_CypherWalletUITests.framework */; };
+		5FCEA2D5FFCE0CF7A2170B4A /* Pods_CypherWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99EA1EA90DD1C90A0A13201 /* Pods_CypherWallet.framework */; };
 		E2C6F2362637F00A00DEA418 /* CypherWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F2352637F00A00DEA418 /* CypherWalletApp.swift */; };
 		E2C6F2382637F00A00DEA418 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F2372637F00A00DEA418 /* ContentView.swift */; };
 		E2C6F23A2637F00B00DEA418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C6F2392637F00B00DEA418 /* Assets.xcassets */; };
 		E2C6F23D2637F00B00DEA418 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C6F23C2637F00B00DEA418 /* Preview Assets.xcassets */; };
 		E2C6F2482637F00C00DEA418 /* CypherWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F2472637F00C00DEA418 /* CypherWalletTests.swift */; };
 		E2C6F2532637F00C00DEA418 /* CypherWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F2522637F00C00DEA418 /* CypherWalletUITests.swift */; };
+		E2C6F2862637FADE00DEA418 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F2852637FADE00DEA418 /* HomeView.swift */; };
+		E2C6F28B263801A100DEA418 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F28A263801A100DEA418 /* Wallet.swift */; };
+		E2C6F290263801D000DEA418 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F28F263801D000DEA418 /* Token.swift */; };
+		E2C6F2952638A45400DEA418 /* TokenCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F2942638A45400DEA418 /* TokenCardView.swift */; };
+		E2C6F29B2638ADC000DEA418 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F29A2638ADC000DEA418 /* HeaderView.swift */; };
+		E2C6F2A02638BDF500DEA418 /* TokenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F29F2638BDF500DEA418 /* TokenView.swift */; };
+		FA8D1C532EF3CF0F28818A7A /* Pods_CypherWalletTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6390F39C071C3DB29F91D4B /* Pods_CypherWalletTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		099218E13F23DC127F9E2E31 /* Pods-CypherWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypherWallet.debug.xcconfig"; path = "Target Support Files/Pods-CypherWallet/Pods-CypherWallet.debug.xcconfig"; sourceTree = "<group>"; };
+		6D316FE4BC3CA45291F6C809 /* Pods-CypherWalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypherWalletTests.release.xcconfig"; path = "Target Support Files/Pods-CypherWalletTests/Pods-CypherWalletTests.release.xcconfig"; sourceTree = "<group>"; };
+		788B11792A80F48900AF816B /* Pods-CypherWallet-CypherWalletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypherWallet-CypherWalletUITests.debug.xcconfig"; path = "Target Support Files/Pods-CypherWallet-CypherWalletUITests/Pods-CypherWallet-CypherWalletUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CBCA998775BA7BA7906D4D8 /* Pods-CypherWalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypherWalletTests.debug.xcconfig"; path = "Target Support Files/Pods-CypherWalletTests/Pods-CypherWalletTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B28C8A31AAD261ADDD98FB8E /* Pods-CypherWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypherWallet.release.xcconfig"; path = "Target Support Files/Pods-CypherWallet/Pods-CypherWallet.release.xcconfig"; sourceTree = "<group>"; };
+		C2F7BBA88D456F5583FA9F71 /* Pods-CypherWallet-CypherWalletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CypherWallet-CypherWalletUITests.release.xcconfig"; path = "Target Support Files/Pods-CypherWallet-CypherWalletUITests/Pods-CypherWallet-CypherWalletUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E2C6F2322637F00A00DEA418 /* CypherWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CypherWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C6F2352637F00A00DEA418 /* CypherWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CypherWalletApp.swift; sourceTree = "<group>"; };
 		E2C6F2372637F00A00DEA418 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +60,15 @@
 		E2C6F24E2637F00C00DEA418 /* CypherWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CypherWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C6F2522637F00C00DEA418 /* CypherWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CypherWalletUITests.swift; sourceTree = "<group>"; };
 		E2C6F2542637F00C00DEA418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2C6F2852637FADE00DEA418 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E2C6F28A263801A100DEA418 /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		E2C6F28F263801D000DEA418 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		E2C6F2942638A45400DEA418 /* TokenCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenCardView.swift; sourceTree = "<group>"; };
+		E2C6F29A2638ADC000DEA418 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E2C6F29F2638BDF500DEA418 /* TokenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenView.swift; sourceTree = "<group>"; };
+		F6390F39C071C3DB29F91D4B /* Pods_CypherWalletTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CypherWalletTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99EA1EA90DD1C90A0A13201 /* Pods_CypherWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CypherWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FECCBB3FC2920B361E0082B4 /* Pods_CypherWallet_CypherWalletUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CypherWallet_CypherWalletUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FCEA2D5FFCE0CF7A2170B4A /* Pods_CypherWallet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8D1C532EF3CF0F28818A7A /* Pods_CypherWalletTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27686E596688DBE7521E95C6 /* Pods_CypherWallet_CypherWalletUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0612F775B80B0EC81B2F9551 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F99EA1EA90DD1C90A0A13201 /* Pods_CypherWallet.framework */,
+				FECCBB3FC2920B361E0082B4 /* Pods_CypherWallet_CypherWalletUITests.framework */,
+				F6390F39C071C3DB29F91D4B /* Pods_CypherWalletTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E4A7F9F8AC6C48B51B6DBB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				099218E13F23DC127F9E2E31 /* Pods-CypherWallet.debug.xcconfig */,
+				B28C8A31AAD261ADDD98FB8E /* Pods-CypherWallet.release.xcconfig */,
+				788B11792A80F48900AF816B /* Pods-CypherWallet-CypherWalletUITests.debug.xcconfig */,
+				C2F7BBA88D456F5583FA9F71 /* Pods-CypherWallet-CypherWalletUITests.release.xcconfig */,
+				8CBCA998775BA7BA7906D4D8 /* Pods-CypherWalletTests.debug.xcconfig */,
+				6D316FE4BC3CA45291F6C809 /* Pods-CypherWalletTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E2C6F2292637F00A00DEA418 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +129,8 @@
 				E2C6F2462637F00C00DEA418 /* CypherWalletTests */,
 				E2C6F2512637F00C00DEA418 /* CypherWalletUITests */,
 				E2C6F2332637F00A00DEA418 /* Products */,
+				5E4A7F9F8AC6C48B51B6DBB6 /* Pods */,
+				0612F775B80B0EC81B2F9551 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +149,15 @@
 			children = (
 				E2C6F2352637F00A00DEA418 /* CypherWalletApp.swift */,
 				E2C6F2372637F00A00DEA418 /* ContentView.swift */,
+				E2C6F2852637FADE00DEA418 /* HomeView.swift */,
+				E2C6F29F2638BDF500DEA418 /* TokenView.swift */,
+				E2C6F28F263801D000DEA418 /* Token.swift */,
+				E2C6F2942638A45400DEA418 /* TokenCardView.swift */,
+				E2C6F29A2638ADC000DEA418 /* HeaderView.swift */,
 				E2C6F2392637F00B00DEA418 /* Assets.xcassets */,
 				E2C6F23E2637F00B00DEA418 /* Info.plist */,
 				E2C6F23B2637F00B00DEA418 /* Preview Content */,
+				E2C6F28A263801A100DEA418 /* Wallet.swift */,
 			);
 			path = CypherWallet;
 			sourceTree = "<group>";
@@ -137,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2C6F2572637F00C00DEA418 /* Build configuration list for PBXNativeTarget "CypherWallet" */;
 			buildPhases = (
+				F0A4848B8AC6977F1A7FE8EA /* [CP] Check Pods Manifest.lock */,
 				E2C6F22E2637F00A00DEA418 /* Sources */,
 				E2C6F22F2637F00A00DEA418 /* Frameworks */,
 				E2C6F2302637F00A00DEA418 /* Resources */,
+				B4579AA6EB98A8442E257227 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2C6F25A2637F00C00DEA418 /* Build configuration list for PBXNativeTarget "CypherWalletTests" */;
 			buildPhases = (
+				38B8D9CAE9D6C7CFC336EA1C /* [CP] Check Pods Manifest.lock */,
 				E2C6F23F2637F00C00DEA418 /* Sources */,
 				E2C6F2402637F00C00DEA418 /* Frameworks */,
 				E2C6F2412637F00C00DEA418 /* Resources */,
@@ -172,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2C6F25D2637F00C00DEA418 /* Build configuration list for PBXNativeTarget "CypherWalletUITests" */;
 			buildPhases = (
+				4D3EF276A9CACE5D32027BDC /* [CP] Check Pods Manifest.lock */,
 				E2C6F24A2637F00C00DEA418 /* Sources */,
 				E2C6F24B2637F00C00DEA418 /* Frameworks */,
 				E2C6F24C2637F00C00DEA418 /* Resources */,
+				F152B66B82E47E1A8F3EC55E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,13 +317,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38B8D9CAE9D6C7CFC336EA1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CypherWalletTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D3EF276A9CACE5D32027BDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CypherWallet-CypherWalletUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4579AA6EB98A8442E257227 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CypherWallet/Pods-CypherWallet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CypherWallet/Pods-CypherWallet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CypherWallet/Pods-CypherWallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0A4848B8AC6977F1A7FE8EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CypherWallet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F152B66B82E47E1A8F3EC55E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CypherWallet-CypherWalletUITests/Pods-CypherWallet-CypherWalletUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CypherWallet-CypherWalletUITests/Pods-CypherWallet-CypherWalletUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CypherWallet-CypherWalletUITests/Pods-CypherWallet-CypherWalletUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2C6F22E2637F00A00DEA418 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C6F28B263801A100DEA418 /* Wallet.swift in Sources */,
+				E2C6F290263801D000DEA418 /* Token.swift in Sources */,
+				E2C6F2952638A45400DEA418 /* TokenCardView.swift in Sources */,
+				E2C6F2862637FADE00DEA418 /* HomeView.swift in Sources */,
 				E2C6F2382637F00A00DEA418 /* ContentView.swift in Sources */,
 				E2C6F2362637F00A00DEA418 /* CypherWalletApp.swift in Sources */,
+				E2C6F2A02638BDF500DEA418 /* TokenView.swift in Sources */,
+				E2C6F29B2638ADC000DEA418 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +586,7 @@
 		};
 		E2C6F2582637F00C00DEA418 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 099218E13F23DC127F9E2E31 /* Pods-CypherWallet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +609,7 @@
 		};
 		E2C6F2592637F00C00DEA418 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B28C8A31AAD261ADDD98FB8E /* Pods-CypherWallet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +632,7 @@
 		};
 		E2C6F25B2637F00C00DEA418 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CBCA998775BA7BA7906D4D8 /* Pods-CypherWalletTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +655,7 @@
 		};
 		E2C6F25C2637F00C00DEA418 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D316FE4BC3CA45291F6C809 /* Pods-CypherWalletTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +678,7 @@
 		};
 		E2C6F25E2637F00C00DEA418 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 788B11792A80F48900AF816B /* Pods-CypherWallet-CypherWalletUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +699,7 @@
 		};
 		E2C6F25F2637F00C00DEA418 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2F7BBA88D456F5583FA9F71 /* Pods-CypherWallet-CypherWalletUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
